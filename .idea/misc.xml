@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/drawable/button_rounded.xml" value="0.2685" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/font/bouncy_font.xml" value="0.12697734074390765" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout-land/activity_main.xml" value="0.18327272091700048" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout-land/activity_splash_screen.xml" value="0.12104787714543812" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout-small/activity_main.xml" value="0.8811274509803921" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.1291566265060241" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout-sw600dp/activity_splash_screen.xml" value="0.2879999900124293" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout-w600dp/content_test.xml" value="0.17579462102689486" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_daftar.xml" value="0.2291577597263788" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_main.xml" value="0.22257479601087943" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_main2.xml" value="0.209375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_pendahuluan.xml" value="0.209375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_pengenalan.xml" value="0.2291577597263788" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_petunjuk.xml" value="0.2291577597263788" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_profil.xml" value="0.2291577597263788" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_rangkuman.xml" value="0.2291577597263788" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_soal_latihan.xml" value="0.2291577597263788" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_splash_screen.xml" value="0.2099187687045746" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/button.xml" value="0.2176143651132963" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/content_test.xml" value="0.19199999334161955" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
