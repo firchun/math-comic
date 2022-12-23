@@ -9,10 +9,20 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MathKomik"
         tools:targetApi="31">
+        <activity
+            android:name=".chapter3"
+            android:exported="false" />
+        <activity
+            android:name=".chapter2"
+            android:exported="false" />
+        <activity
+            android:name=".chapter1"
+            android:exported="false" />
         <activity
             android:name=".profil"
             android:exported="false" />

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapter3">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/chapter3_1"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_1" />
+            <ImageView
+                android:id="@+id/chapter3_2"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_2" />
+            <ImageView
+                android:id="@+id/chapter3_3"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_3" />
+            <ImageView
+                android:id="@+id/chapter3_4"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_4" />
+            <ImageView
+                android:id="@+id/chapter3_5"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_5" />
+            <ImageView
+                android:id="@+id/chapter3_6"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_6" />
+            <ImageView
+                android:id="@+id/chapter3_7"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_7" />
+            <ImageView
+                android:id="@+id/chapter3_8"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_8" />
+            <ImageView
+                android:id="@+id/chapter3_9"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_9" />
+            <ImageView
+                android:id="@+id/chapter3_10"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_10" />
+            <ImageView
+                android:id="@+id/chapter3_11"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_11" />
+            <ImageView
+                android:id="@+id/chapter3_12"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_12" />
+            <ImageView
+                android:id="@+id/chapter3_13"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_13" />
+            <ImageView
+                android:id="@+id/chapter3_14"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_14" />
+            <ImageView
+                android:id="@+id/chapter3_15"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_15" />
+            <ImageView
+                android:id="@+id/chapter3_16"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_16" />
+            <ImageView
+                android:id="@+id/chapter3_17"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_17" />
+            <ImageView
+                android:id="@+id/chapter3_18"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter3_18" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -37,7 +37,7 @@
             android:layout_marginVertical="2dp"
             android:backgroundTint="@color/button"
             android:text="prolog"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textSize="16dp"
             android:textStyle="bold">
 
@@ -50,7 +50,7 @@
             android:layout_marginVertical="2dp"
             android:backgroundTint="@color/button"
             android:text="Pengenalan Tokoh"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textSize="16dp"
             android:textStyle="bold">
 
@@ -63,7 +63,7 @@
             android:layout_marginVertical="2dp"
             android:backgroundTint="@color/button"
             android:text="Daftar Cerita"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textSize="16dp"
             android:textStyle="bold">
 
@@ -76,7 +76,7 @@
             android:layout_marginVertical="2dp"
             android:backgroundTint="@color/button"
             android:text="Rangkuman"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textSize="16dp"
             android:textStyle="bold">
 
@@ -89,7 +89,7 @@
             android:layout_marginVertical="2dp"
             android:backgroundTint="@color/button"
             android:text="Soal Latihan"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textSize="16dp"
             android:textStyle="bold">
 
@@ -130,7 +130,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Petunjuk"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="20dp"
             android:backgroundTint="@color/button">
@@ -142,7 +142,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Profil"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="20dp"
             android:backgroundTint="@color/button"

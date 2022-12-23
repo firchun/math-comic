@@ -42,7 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="prolog"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:layout_marginVertical="5dp"
             android:textSize="30dp"
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:text="Pengenalan Tokoh"
             android:layout_marginVertical="5dp"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="30dp"
             android:backgroundTint="@color/button">
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:text="Daftar Cerita"
             android:layout_marginVertical="5dp"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="30dp"
             android:backgroundTint="@color/button">
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:text="Rangkuman"
             android:layout_marginVertical="5dp"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="30dp"
             android:backgroundTint="@color/button">
@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:text="Soal Latihan"
             android:layout_marginVertical="5dp"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="30dp"
             android:backgroundTint="@color/button">
@@ -115,7 +115,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Petunjuk"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="23dp"
             android:backgroundTint="@color/button">
@@ -127,7 +127,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Profil"
-            android:textColor="@color/button_text"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="23dp"
             android:backgroundTint="@color/button"

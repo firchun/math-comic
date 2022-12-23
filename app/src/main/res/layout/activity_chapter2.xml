@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapter2">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/chapter2_1"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_1" />
+            <ImageView
+                android:id="@+id/chapter2_2"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_2" />
+            <ImageView
+                android:id="@+id/chapter2_3"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_3" />
+            <ImageView
+                android:id="@+id/chapter2_4"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_4" />
+            <ImageView
+                android:id="@+id/chapter2_5"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_5" />
+            <ImageView
+                android:id="@+id/chapter2_6"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_6" />
+            <ImageView
+                android:id="@+id/chapter2_7"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_7" />
+            <ImageView
+                android:id="@+id/chapter2_8"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_8" />
+            <ImageView
+                android:id="@+id/chapter2_9"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_9" />
+            <ImageView
+                android:id="@+id/chapter2_10"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_10" />
+            <ImageView
+                android:id="@+id/chapter2_11"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_11" />
+            <ImageView
+                android:id="@+id/chapter2_12"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_12" />
+            <ImageView
+                android:id="@+id/chapter2_13"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_13" />
+            <ImageView
+                android:id="@+id/chapter2_14"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_14" />
+            <ImageView
+                android:id="@+id/chapter2_15"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_15" />
+            <ImageView
+                android:id="@+id/chapter2_16"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_16" />
+            <ImageView
+                android:id="@+id/chapter2_17"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_17" />
+            <ImageView
+                android:id="@+id/chapter2_18"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_18" />
+            <ImageView
+                android:id="@+id/chapter2_19"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_19" />
+            <ImageView
+                android:id="@+id/chapter2_20"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_20" />
+            <ImageView
+                android:id="@+id/chapter2_21"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_21" />
+            <ImageView
+                android:id="@+id/chapter2_22"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_22" />
+            <ImageView
+                android:id="@+id/chapter2_23"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                app:srcCompat="@drawable/chapter2_23" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
