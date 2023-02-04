@@ -15,6 +15,126 @@
         android:theme="@style/Theme.MathKomik"
         tools:targetApi="31">
         <activity
+            android:name=".bahas20"
+            android:exported="false" />
+        <activity
+            android:name=".bahas19"
+            android:exported="false" />
+        <activity
+            android:name=".bahas18"
+            android:exported="false" />
+        <activity
+            android:name=".bahas17"
+            android:exported="false" />
+        <activity
+            android:name=".bahas16"
+            android:exported="false" />
+        <activity
+            android:name=".bahas15"
+            android:exported="false" />
+        <activity
+            android:name=".bahas14"
+            android:exported="false" />
+        <activity
+            android:name=".bahas13"
+            android:exported="false" />
+        <activity
+            android:name=".bahas12"
+            android:exported="false" />
+        <activity
+            android:name=".bahas11"
+            android:exported="false" />
+        <activity
+            android:name=".bahas10"
+            android:exported="false" />
+        <activity
+            android:name=".bahas9"
+            android:exported="false" />
+        <activity
+            android:name=".bahas8"
+            android:exported="false" />
+        <activity
+            android:name=".bahas7"
+            android:exported="false" />
+        <activity
+            android:name=".bahas6"
+            android:exported="false" />
+        <activity
+            android:name=".bahas5"
+            android:exported="false" />
+        <activity
+            android:name=".bahas4"
+            android:exported="false" />
+        <activity
+            android:name=".bahas3"
+            android:exported="false" />
+        <activity
+            android:name=".bahas2"
+            android:exported="false" />
+        <activity
+            android:name=".bahas1"
+            android:exported="false" />
+        <activity
+            android:name=".latihan20"
+            android:exported="false" />
+        <activity
+            android:name=".latihan19"
+            android:exported="false" />
+        <activity
+            android:name=".latihan18"
+            android:exported="false" />
+        <activity
+            android:name=".latihan17"
+            android:exported="false" />
+        <activity
+            android:name=".latihan16"
+            android:exported="false" />
+        <activity
+            android:name=".latihan15"
+            android:exported="false" />
+        <activity
+            android:name=".latihan14"
+            android:exported="false" />
+        <activity
+            android:name=".latihan13"
+            android:exported="false" />
+        <activity
+            android:name=".latihan12"
+            android:exported="false" />
+        <activity
+            android:name=".latihan11"
+            android:exported="false" />
+        <activity
+            android:name=".latihan10"
+            android:exported="false" />
+        <activity
+            android:name=".latihan9"
+            android:exported="false" />
+        <activity
+            android:name=".latihan8"
+            android:exported="false" />
+        <activity
+            android:name=".latihan7"
+            android:exported="false" />
+        <activity
+            android:name=".latihan6"
+            android:exported="false" />
+        <activity
+            android:name=".latihan5"
+            android:exported="false" />
+        <activity
+            android:name=".latihan4"
+            android:exported="false" />
+        <activity
+            android:name=".latihan3"
+            android:exported="false" />
+        <activity
+            android:name=".latihan2"
+            android:exported="false" />
+        <activity
+            android:name=".latihan1"
+            android:exported="false" />
+        <activity
             android:name=".chapter3"
             android:exported="false" />
         <activity
