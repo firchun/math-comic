@@ -15,6 +15,12 @@
         android:theme="@style/Theme.MathKomik"
         tools:targetApi="31">
         <activity
+            android:name=".chapter5"
+            android:exported="false" />
+        <activity
+            android:name=".chapter4"
+            android:exported="false" />
+        <activity
             android:name=".bahas20"
             android:exported="false" />
         <activity

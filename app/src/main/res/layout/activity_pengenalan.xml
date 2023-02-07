@@ -7,4 +7,13 @@
     tools:context=".pengenalan"
     android:background="@drawable/background">
 
+    <ImageView
+        android:id="@+id/karakter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center_vertical"
+        app:srcCompat="@drawable/karakter"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

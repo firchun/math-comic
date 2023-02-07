@@ -17,157 +17,306 @@
             android:layout_marginHorizontal="20dp">
 
 
-
-                <LinearLayout
+                <ScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
+                    android:layout_height="match_parent"
                     android:layout_marginTop="120dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:background="@color/button">
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:scaleType="fitStart"
-                            android:src="@drawable/avatar_1"/>
+                    android:layout_marginBottom="50dp">
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_marginHorizontal="10dp"
-                            android:background="@color/button">
-                                <TextView
+                            android:orientation="vertical" >
+                                <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="CHAPTER 1"
-                                    android:textSize="28dp"
-                                    android:textColor="@color/white"
-                                    android:textStyle="bold"/>
-                                <TextView
+                                    android:layout_marginHorizontal="10dp"
+                                    android:background="@color/button"
+                                    android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:scaleType="fitStart"
+                                            android:src="@drawable/avatar_1" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginHorizontal="10dp"
+                                            android:background="@color/button"
+                                            android:orientation="vertical">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="CHAPTER 1"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="28dp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Go To Lotus Garden"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="15dp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="(Hubungan Antar Garis)"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="15dp"
+                                                    android:textStyle="italic" />
+
+                                                <Button
+                                                    android:id="@id/chapter1"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="10dp"
+                                                    android:backgroundTint="@color/white"
+                                                    android:text="Baca Cerita" />
+                                        </LinearLayout>
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Go To Lotus Garden"
-                                    android:textSize="15dp"
-                                    android:textColor="@color/white"
-                                    android:textStyle="bold"/>
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="(Hubungan Antar Garis)"
-                                    android:textSize="15dp"
-                                    android:textColor="@color/white"
-                                    android:textStyle="italic"/>
-                                <Button
-                                    android:id="@id/chapter1"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
+                                    android:layout_marginHorizontal="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:text="Baca Cerita"
-                                    android:backgroundTint="@color/white"/>
-                        </LinearLayout>
+                                    android:background="@color/button"
+                                    android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="match_parent"
+                                            android:scaleType="fitStart"
+                                            android:src="@drawable/avatar_2" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginHorizontal="10dp"
+                                            android:background="@color/button"
+                                            android:orientation="vertical">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="CHAPTER 2"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="28dp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Tempat Sampah Unik"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="15dp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="(Membagi Ruas Garis)"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="15dp"
+                                                    android:textStyle="italic" />
+
+                                                <Button
+                                                    android:id="@id/chapter2"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="10dp"
+                                                    android:backgroundTint="@color/white"
+                                                    android:text="Baca Cerita" />
+                                        </LinearLayout>
 
 
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:background="@color/button">
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:scaleType="fitStart"
-                            android:src="@drawable/avatar_2"/>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_marginHorizontal="10dp"
-                            android:background="@color/button">
-                                <TextView
+                                </LinearLayout>
+
+                                <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="CHAPTER 2"
-                                    android:textSize="28dp"
-                                    android:textColor="@color/white"
-                                    android:textStyle="bold"/>
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="Tempat Sampah Unik"
-                                    android:textSize="15dp"
-                                    android:textColor="@color/white"
-                                    android:textStyle="bold"/>
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="(Membagi Ruas Garis)"
-                                    android:textSize="15dp"
-                                    android:textColor="@color/white"
-                                    android:textStyle="italic"/>
-                                <Button
-                                    android:id="@id/chapter2"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
+                                    android:layout_marginHorizontal="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:text="Baca Cerita"
-                                    android:backgroundTint="@color/white"/>
-                        </LinearLayout>
+                                    android:background="@color/button"
+                                    android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:scaleType="fitStart"
+                                            android:src="@drawable/avatar_3" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginHorizontal="10dp"
+                                            android:background="@color/button"
+                                            android:orientation="vertical">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="CHAPTER 3"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="28dp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Delicious Pizza"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="15dp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="(Mengenal Sudut)"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="15dp"
+                                                    android:textStyle="italic" />
+
+                                                <Button
+                                                    android:id="@id/chapter3"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="10dp"
+                                                    android:backgroundTint="@color/white"
+                                                    android:text="Baca Cerita" />
+                                        </LinearLayout>
 
 
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:background="@color/button">
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:scaleType="fitStart"
-                            android:src="@drawable/avatar_3"/>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:layout_marginHorizontal="10dp"
-                            android:background="@color/button">
-                                <TextView
+                                </LinearLayout>
+
+                                <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="CHAPTER 3"
-                                    android:textSize="28dp"
-                                    android:textColor="@color/white"
-                                    android:textStyle="bold"/>
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="Delicious Pizza"
-                                    android:textSize="15dp"
-                                    android:textColor="@color/white"
-                                    android:textStyle="bold"/>
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="(Mengenal Sudut)"
-                                    android:textSize="15dp"
-                                    android:textColor="@color/white"
-                                    android:textStyle="italic"/>
-                                <Button
-                                    android:id="@id/chapter3"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
+                                    android:layout_marginHorizontal="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:text="Baca Cerita"
-                                    android:backgroundTint="@color/white"/>
+                                    android:background="@color/button"
+                                    android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitStart"
+                                            android:src="@drawable/avatar_4" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginHorizontal="10dp"
+                                            android:background="@color/button"
+                                            android:orientation="vertical">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="CHAPTER 4"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="28dp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Booth Cafe Container dan Pegangan Tangga"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="15dp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="(Hubungan Antar Sudut)"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="15dp"
+                                                    android:textStyle="italic" />
+
+                                                <Button
+                                                    android:id="@+id/chapter4"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="10dp"
+                                                    android:backgroundTint="@color/white"
+                                                    android:text="Baca Cerita" />
+                                        </LinearLayout>
+
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginHorizontal="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@color/button"
+                                    android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitStart"
+                                            android:src="@drawable/avatar_5" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginHorizontal="10dp"
+                                            android:background="@color/button"
+                                            android:orientation="vertical">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="CHAPTER 5"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="28dp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Dimana Jangka Mika"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="15dp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="(Melukis Sudut)"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="15dp"
+                                                    android:textStyle="italic" />
+
+                                                <Button
+                                                    android:id="@+id/chapter5"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="10dp"
+                                                    android:backgroundTint="@color/white"
+                                                    android:text="Baca Cerita" />
+                                        </LinearLayout>
+
+
+                                </LinearLayout>
                         </LinearLayout>
+                </ScrollView>
 
 
-                </LinearLayout>
+
+
+
+
 
 
         </LinearLayout>
