@@ -34,11 +34,11 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_bahas7.xml" value="0.21932449764856776" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_bahas8.xml" value="0.21932449764856776" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_bahas9.xml" value="0.21932449764856776" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_chapter1.xml" value="0.21818181061547676" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_chapter2.xml" value="0.10225104921785579" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_chapter1.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_chapter2.xml" value="0.1" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_chapter3.xml" value="0.10225104921785579" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_chapter4.xml" value="0.2879999900124293" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_chapter5.xml" value="0.2879999900124293" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_chapter4.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_chapter5.xml" value="0.2573687994248742" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_daftar.xml" value="0.25" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_latihan1.xml" value="0.21932449764856776" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_latihan10.xml" value="0.21932449764856776" />
@@ -63,9 +63,9 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_main.xml" value="0.22257479601087943" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_main2.xml" value="0.209375" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_pendahuluan.xml" value="0.209375" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_pengenalan.xml" value="0.2291577597263788" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_pengenalan.xml" value="0.15709090364314326" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_petunjuk.xml" value="0.2291577597263788" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_profil.xml" value="0.2291577597263788" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_profil.xml" value="0.375" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_rangkuman.xml" value="0.1" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_soal_latihan.xml" value="0.2291577597263788" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MathKomik/app/src/main/res/layout/activity_splash_screen.xml" value="0.2099187687045746" />

@@ -169,7 +169,7 @@
                 android:id="@+id/chapter1_30"
                 android:layout_width="match_parent"
                 android:layout_height="484dp"
-                app:srcCompat="@drawable/chapter1_30" />
+                app:srcCompat="@drawable/chapter4_30" />
             <ImageView
                 android:id="@+id/chapter4_31"
                 android:layout_width="match_parent"
@@ -219,7 +219,7 @@
                 android:id="@+id/chapter4_40"
                 android:layout_width="match_parent"
                 android:layout_height="484dp"
-                app:srcCompat="@drawable/chapter1_40" />
+                app:srcCompat="@drawable/chapter4_40" />
 
         </LinearLayout>
     </ScrollView>

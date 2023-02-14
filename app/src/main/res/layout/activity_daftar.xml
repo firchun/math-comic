@@ -35,8 +35,8 @@
                                     android:orientation="horizontal">
 
                                         <ImageView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="match_parent"
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
                                             android:scaleType="fitStart"
                                             android:src="@drawable/avatar_1" />
 
@@ -93,7 +93,7 @@
 
                                         <ImageView
                                             android:layout_width="150dp"
-                                            android:layout_height="match_parent"
+                                            android:layout_height="150dp"
                                             android:scaleType="fitStart"
                                             android:src="@drawable/avatar_2" />
 
@@ -149,10 +149,10 @@
                                     android:orientation="horizontal">
 
                                         <ImageView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="match_parent"
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
                                             android:scaleType="fitStart"
-                                            android:src="@drawable/avatar_3" />
+                                            android:src="@drawable/avatar_4" />
 
                                         <LinearLayout
                                             android:layout_width="match_parent"
@@ -209,7 +209,7 @@
                                             android:layout_width="150dp"
                                             android:layout_height="150dp"
                                             android:scaleType="fitStart"
-                                            android:src="@drawable/avatar_4" />
+                                            android:src="@drawable/avatar_3" />
 
                                         <LinearLayout
                                             android:layout_width="match_parent"

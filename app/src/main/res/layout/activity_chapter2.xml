@@ -125,16 +125,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="484dp"
                 app:srcCompat="@drawable/chapter2_21" />
-            <ImageView
-                android:id="@+id/chapter2_22"
-                android:layout_width="match_parent"
-                android:layout_height="484dp"
-                app:srcCompat="@drawable/chapter2_22" />
-            <ImageView
-                android:id="@+id/chapter2_23"
-                android:layout_width="match_parent"
-                android:layout_height="484dp"
-                app:srcCompat="@drawable/chapter2_23" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
