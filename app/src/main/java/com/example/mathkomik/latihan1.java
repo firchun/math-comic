@@ -8,15 +8,36 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class latihan1 extends AppCompatActivity {
 
     Button btn_next,btn_a,btn_b,btn_c,btn_d;
+    ImageButton btn_home,btn_restart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_latihan1);
+
+        btn_home = (ImageButton) findViewById(R.id.img_button_home);
+
+        btn_home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent beach = new  Intent(latihan1.this, MainActivity.class);
+                startActivity(beach);
+            }
+        });
+        btn_restart = (ImageButton) findViewById(R.id.img_button_start);
+
+        btn_restart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent beach = new  Intent(latihan1.this, soal_latihan.class);
+                startActivity(beach);
+            }
+        });
 
         btn_next = (Button) findViewById(R.id.next);
 

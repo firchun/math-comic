@@ -6,19 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".latihan1"
     android:background="@drawable/background">
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="20dp"
         android:gravity="center_vertical"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+            <ImageButton
+                android:id="@+id/img_button_start"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="220dp"
+                android:background="@drawable/icon_restart"/>
+            <ImageButton
+                android:id="@+id/img_button_home"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/icon_home"/>
+
+
+
+        </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nomor 1"
-            android:shadowRadius="30"
             android:shadowColor="@color/black"
+            android:shadowRadius="30"
+            android:text="Nomor 1"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="50dp"
@@ -33,53 +59,57 @@
             android:id="@+id/a"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="A. Titik"
-            android:textSize="25dp"
             android:layout_marginVertical="10dp"
             android:background="@color/top"
-            android:textColor="@color/white"/>
+            android:text="A. Titik"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
         <Button
             android:id="@+id/b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="b. Garis"
-            android:textSize="25dp"
             android:layout_marginVertical="10dp"
             android:background="@color/top"
-            android:textColor="@color/white"/>
+            android:text="b. Garis"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
         <Button
             android:id="@+id/c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="c. Bidang"
-            android:textSize="25dp"
             android:layout_marginVertical="10dp"
             android:background="@color/top"
-            android:textColor="@color/white"/>
+            android:text="c. Bidang"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
         <Button
             android:id="@+id/d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="d. Sudut"
-            android:textSize="25dp"
             android:layout_marginVertical="10dp"
             android:background="@color/top"
-            android:textColor="@color/white"/>
+            android:text="d. Sudut"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_marginVertical="10dp"
+            android:gravity="center_horizontal"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/next"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="25dp"
-                android:text="next"
                 android:layout_marginHorizontal="10dp"
-                android:textColor="@color/white"/>
+                android:text="next"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
         </LinearLayout>
     </LinearLayout>
 

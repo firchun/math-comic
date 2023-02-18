@@ -55,8 +55,9 @@
                 android:id="@+id/mulai"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:textSize="25dp"
+                android:textSize="35dp"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_button"
                 android:text="Mulai "
                 android:layout_marginHorizontal="10dp"
                 android:textColor="@color/white"/>
@@ -64,8 +65,9 @@
             android:id="@+id/home"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:textSize="25dp"
+            android:textSize="35dp"
             android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_button"
             android:text="Home "
             android:layout_marginHorizontal="10dp"
             android:textColor="@color/white"/>
