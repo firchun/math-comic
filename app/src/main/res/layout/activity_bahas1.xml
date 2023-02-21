@@ -44,6 +44,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="30dp"
                 android:text="next"
+                android:background="@drawable/rounded_button"
                 android:layout_marginHorizontal="10dp"
                 android:textColor="@color/white"/>
         </LinearLayout>

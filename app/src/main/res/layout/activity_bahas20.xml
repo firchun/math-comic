@@ -37,22 +37,49 @@
             android:gravity="center"
             android:layout_marginVertical="10dp"
             android:orientation="horizontal">
-            <Button
-                android:id="@+id/next"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
-                android:text="Ulangi"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/white"/>
-            <Button
-                android:id="@+id/home"
+                android:gravity="center_horizontal"
+                android:layout_marginEnd="50dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/next"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textSize="30dp"
+                    android:text="Ulangi"
+                    android:background="@drawable/icon_restart"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:text="Restart"/>
+            </LinearLayout>
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
-                android:text="home"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/white"/>
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/home"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textSize="30dp"
+                    android:background="@drawable/icon_home"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:text="Home"/>
+            </LinearLayout>
+
 
         </LinearLayout>
     </LinearLayout>

@@ -12,6 +12,28 @@
         android:padding="20dp"
         android:gravity="center_vertical"
         android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+            <ImageButton
+                android:id="@+id/img_button_start"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="220dp"
+                android:background="@drawable/icon_restart"/>
+            <ImageButton
+                android:id="@+id/img_button_home"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/icon_home"/>
+
+
+
+        </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -26,7 +48,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="250dp"
             android:src="@drawable/latihan_2" />
 
         <Button
@@ -36,7 +58,7 @@
             android:text="A. Titik"
             android:textSize="25dp"
             android:layout_marginVertical="10dp"
-            android:background="@color/top"
+            android:background="@drawable/rounded_button"
             android:textColor="@color/white"/>
         <Button
             android:id="@+id/b"
@@ -45,7 +67,7 @@
             android:text="b. Garis"
             android:textSize="25dp"
             android:layout_marginVertical="10dp"
-            android:background="@color/top"
+            android:background="@drawable/rounded_button"
             android:textColor="@color/white"/>
         <Button
             android:id="@+id/c"
@@ -54,7 +76,7 @@
             android:text="c. Bidang"
             android:textSize="25dp"
             android:layout_marginVertical="10dp"
-            android:background="@color/top"
+            android:background="@drawable/rounded_button"
             android:textColor="@color/white"/>
         <Button
             android:id="@+id/d"
@@ -63,7 +85,7 @@
             android:text="d. Sudut"
             android:textSize="25dp"
             android:layout_marginVertical="10dp"
-            android:background="@color/top"
+            android:background="@drawable/rounded_button"
             android:textColor="@color/white"/>
         <LinearLayout
             android:layout_width="match_parent"
@@ -78,6 +100,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
                 android:text="next"
+                android:background="@drawable/rounded_button"
                 android:layout_marginHorizontal="10dp"
                 android:textColor="@color/white"/>
         </LinearLayout>

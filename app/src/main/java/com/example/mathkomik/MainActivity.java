@@ -2,6 +2,7 @@ package com.example.mathkomik;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -19,11 +20,21 @@ public class MainActivity extends AppCompatActivity {
     Button btn_soal_latihan;
     Button btn_petunjuk;
     Button btn_profil;
+    MediaPlayer audioBackground;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Memanggil file my_sound pada folder raw
+        audioBackground = MediaPlayer.create(this, R.raw.backsound);
+        //Set looping ke true untuk mengulang audio jika telah selesai
+        audioBackground.setLooping(true);
+        //Set volume audio agar berbunyi
+        audioBackground.setVolume(1,1);
+        //Memulai audio
+        audioBackground.start();
 
         btn_pendahuluan = (Button) findViewById(R.id.prolog);
 
@@ -42,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent beach = new  Intent(MainActivity.this, pengenalan.class);
                 startActivity(beach);
+
             }
         });
 
@@ -52,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent beach = new  Intent(MainActivity.this, daftar.class);
                 startActivity(beach);
+
             }
         });
 
@@ -72,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent beach = new  Intent(MainActivity.this, soal_latihan.class);
                 startActivity(beach);
+                audioBackground.stop();
             }
         });
 

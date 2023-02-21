@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,6 +20,11 @@ public class latihan1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_latihan1);
+
+        final MediaPlayer jawaban1 = MediaPlayer.create(this, R.raw.true2);
+        final MediaPlayer jawaban2 = MediaPlayer.create(this, R.raw.false2);
+        final MediaPlayer jawaban3 = MediaPlayer.create(this, R.raw.false2);
+        final MediaPlayer jawaban4 = MediaPlayer.create(this, R.raw.false2);
 
         btn_home = (ImageButton) findViewById(R.id.img_button_home);
 
@@ -54,6 +60,7 @@ public class latihan1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 jawabanBenar();
+                jawaban1.start();
             }
         });
         btn_b = (Button) findViewById(R.id.b);
@@ -61,6 +68,7 @@ public class latihan1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 jawabanSalah();
+                jawaban2.start();
             }
         });
         btn_c = (Button) findViewById(R.id.c);
@@ -68,6 +76,7 @@ public class latihan1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 jawabanSalah();
+                jawaban3.start();
             }
         });
         btn_d = (Button) findViewById(R.id.d);
@@ -75,6 +84,7 @@ public class latihan1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 jawabanSalah();
+                jawaban4.start();
             }
         });
 

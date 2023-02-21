@@ -6,15 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class bahas20 extends AppCompatActivity {
 
-    Button btn_next,btn_home;
+    ImageButton btn_next,btn_home;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bahas20);
-        btn_next = (Button) findViewById(R.id.next);
+        btn_next = (ImageButton) findViewById(R.id.next);
 
         btn_next.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,7 +24,7 @@ public class bahas20 extends AppCompatActivity {
                 startActivity(beach);
             }
         });
-        btn_home = (Button) findViewById(R.id.home);
+        btn_home = (ImageButton) findViewById(R.id.home);
 
         btn_home.setOnClickListener(new View.OnClickListener() {
             @Override

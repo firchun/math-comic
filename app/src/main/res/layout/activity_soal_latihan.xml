@@ -9,46 +9,47 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_vertical"
-        android:padding="20dp"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Selamat Datang di"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            android:textStyle="normal" />
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="25dp">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Latihan Soal"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:shadowRadius="30"
-            android:shadowColor="@color/black"
-            android:textSize="50dp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selamat Datang di"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:textStyle="normal" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:layout_marginVertical="30dp"
-            android:textSize="30dp"
-            android:textAlignment="center"
-            android:text="Soal berbentuk pilihan ganda. silahkan memilih pilihan A,B,C dan D sesuai jawaban pada soal."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Latihan Soal"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:shadowColor="@color/black"
+                android:shadowRadius="25"
+                android:textSize="60dp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:layout_marginBottom="20dp"
-            android:textSize="30dp"
-            android:textAlignment="center"
-            android:text="Selamat mengerjakan..."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:text="Soal berbentuk pilihan ganda. silahkan memilih pilihan A,B,C dan D sesuai jawaban pada soal."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:text="Selamat mengerjakan..."/>
 
 
             <Button
@@ -59,19 +60,18 @@
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rounded_button"
                 android:text="Mulai "
-                android:layout_marginHorizontal="10dp"
                 android:textColor="@color/white"/>
-        <Button
-            android:id="@+id/home"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:textSize="35dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/rounded_button"
-            android:text="Home "
-            android:layout_marginHorizontal="10dp"
-            android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/home"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textSize="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_button"
+                android:text="Home "
+                android:textColor="@color/white"/>
 
-    </LinearLayout>
+        </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
