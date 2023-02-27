@@ -9,34 +9,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
         android:orientation="vertical"
-        android:paddingHorizontal="25dp">
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="550dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="150dp"
+            android:paddingBottom="20dp"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/latihan_soal">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Selamat Datang di"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="25dp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Latihan Soal"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:shadowColor="@color/black"
-                android:shadowRadius="25"
-                android:textSize="60dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/white"
+                android:textColor="#FF6642"
                 android:textSize="30dp"
                 android:textAlignment="center"
                 android:text="Soal berbentuk pilihan ganda. silahkan memilih pilihan A,B,C dan D sesuai jawaban pada soal."/>
@@ -44,34 +32,52 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:paddingTop="5dp"
-                android:layout_marginBottom="20dp"
+                android:textColor="#FF6642"
+                android:paddingTop="20dp"
                 android:textSize="30dp"
+                android:textStyle="bold"
                 android:textAlignment="center"
                 android:text="Selamat mengerjakan..."/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:layout_marginHorizontal="10dp">
+                <Button
+                    android:id="@+id/mulai"
+                    android:layout_width="240dp"
+                    android:layout_height="70dp"
+                    android:text="Mulai"
+                    android:textStyle="bold"
+                    android:textSize="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/rounded_button"/>
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="@drawable/rounded_button">
+                    <ImageButton
+                        android:id="@+id/img_button_home"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/icon_home"/>
+                </LinearLayout>
+            </LinearLayout>
 
 
-            <Button
-                android:id="@+id/mulai"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:textSize="35dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/rounded_button"
-                android:text="Mulai "
-                android:textColor="@color/white"/>
-            <Button
-                android:id="@+id/home"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:textSize="35dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/rounded_button"
-                android:text="Home "
-                android:textColor="@color/white"/>
+
+
+
 
         </LinearLayout>
+    </LinearLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

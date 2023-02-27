@@ -58,6 +58,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="1050dp"
                 app:srcCompat="@drawable/rangkuman_8" />
+            <ImageView
+                android:id="@+id/rangkuman_9"
+                android:layout_width="match_parent"
+                android:layout_height="1050dp"
+                app:srcCompat="@drawable/rangkuman_9" />
 
         </LinearLayout>
     </ScrollView>

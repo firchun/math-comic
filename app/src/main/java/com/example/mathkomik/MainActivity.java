@@ -1,7 +1,9 @@
 package com.example.mathkomik;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.widget.Button;
@@ -53,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent beach = new  Intent(MainActivity.this, pengenalan.class);
                 startActivity(beach);
-
             }
         });
 
@@ -64,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent beach = new  Intent(MainActivity.this, daftar.class);
                 startActivity(beach);
-
             }
         });
 
@@ -109,4 +109,33 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    //home button or back
+//    @Override
+//    public void onBackPressed() {
+//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//        builder.setTitle("Alert!!!");
+//        builder.setMessage("Apakah kamu yakin ingin keluar dari Aplikasi ?")
+//                .setIcon(R.drawable.icon_pemberitahuan)
+//                .setCancelable(false)
+//                .setPositiveButton("Ya", new DialogInterface.OnClickListener() {
+//                    public void onClick(DialogInterface dialog, int id) {
+//                        MainActivity.this.finish();
+//                        audioBackground.stop();
+//                    }
+//                })
+//                .setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
+//                    public void onClick(DialogInterface dialog, int id) {
+//                        dialog.cancel();
+//                    }
+//                });
+//        AlertDialog alert = builder.create();
+//        alert.show();
+//
+//    }
+
+//    protected void onUserLeaveHint() {
+////        MainActivity.this.finish();
+//        audioBackground.pause();
+//    }
 }

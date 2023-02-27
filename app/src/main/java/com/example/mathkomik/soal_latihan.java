@@ -6,10 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class soal_latihan extends AppCompatActivity {
 
-    Button btn_mulai,btn_home;
+    Button btn_mulai;
+    ImageButton btn_home;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +27,8 @@ public class soal_latihan extends AppCompatActivity {
                 startActivity(beach);
             }
         });
-        btn_home = (Button) findViewById(R.id.home);
+
+        btn_home = (ImageButton) findViewById(R.id.img_button_home);
 
         btn_home.setOnClickListener(new View.OnClickListener() {
             @Override

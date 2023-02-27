@@ -32,8 +32,7 @@ public class latihan11 extends AppCompatActivity {
         btn_home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent beach = new  Intent(latihan11.this, MainActivity.class);
-                startActivity(beach);
+               back_home();
             }
         });
         btn_restart = (ImageButton) findViewById(R.id.img_button_start);
@@ -41,8 +40,7 @@ public class latihan11 extends AppCompatActivity {
         btn_restart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent beach = new  Intent(latihan11.this, soal_latihan.class);
-                startActivity(beach);
+                back_start();
             }
         });
 
@@ -110,7 +108,7 @@ public class latihan11 extends AppCompatActivity {
                         startActivity(beach);
                     }
                 })
-                .setNegativeButton("Cencel",new DialogInterface.OnClickListener() {
+                .setNegativeButton("Cancel",new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog,int id) {
                         // jika tombol diklik, maka akan menutup activity ini
                         dialog.cancel();
@@ -148,6 +146,72 @@ public class latihan11 extends AppCompatActivity {
 //                        dialog.cancel();
 //                    }
 //                })
+        ;
+
+        // membuat alert dialog dari builder
+        AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // menampilkan alert dialog
+        alertDialog.show();
+    }
+    private void back_home(){
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+                this);
+
+        // set title dialog
+        alertDialogBuilder.setTitle("Info");
+
+        // set pesan dari dialog
+        alertDialogBuilder
+                .setMessage("Apakah yakin anda akan kembali ke home ??")
+                .setIcon(R.drawable.icon_pemberitahuan)
+                .setCancelable(false)
+                .setPositiveButton("Yaa",new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog,int id) {
+                        // jika tombol diklik, maka akan menutup activity ini
+                        Intent beach = new  Intent(latihan11.this, MainActivity.class);
+                        startActivity(beach);
+                    }
+                })
+                .setNegativeButton("Tidak",new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog,int id) {
+                        // jika tombol diklik, maka akan menutup activity ini
+                        dialog.cancel();
+                    }
+                })
+        ;
+
+        // membuat alert dialog dari builder
+        AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // menampilkan alert dialog
+        alertDialog.show();
+    }
+    private void back_start(){
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+                this);
+
+        // set title dialog
+        alertDialogBuilder.setTitle("Info");
+
+        // set pesan dari dialog
+        alertDialogBuilder
+                .setMessage("Apakah yakin anda akan memulai ulang soal ??")
+                .setIcon(R.drawable.icon_pemberitahuan)
+                .setCancelable(false)
+                .setPositiveButton("Yaa",new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog,int id) {
+                        // jika tombol diklik, maka akan menutup activity ini
+                        Intent beach = new  Intent(latihan11.this, soal_latihan.class);
+                        startActivity(beach);
+                    }
+                })
+                .setNegativeButton("Tidak",new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog,int id) {
+                        // jika tombol diklik, maka akan menutup activity ini
+                        dialog.cancel();
+                    }
+                })
         ;
 
         // membuat alert dialog dari builder

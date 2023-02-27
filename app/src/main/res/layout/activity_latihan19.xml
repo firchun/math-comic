@@ -19,18 +19,35 @@
             android:layout_marginHorizontal="10dp"
             android:orientation="horizontal"
             tools:ignore="MissingConstraints">
-            <ImageButton
-                android:id="@+id/img_button_start"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginEnd="220dp"
-                android:background="@drawable/icon_restart"/>
-            <ImageButton
-                android:id="@+id/img_button_home"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/icon_home"/>
 
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginEnd="200dp"
+                android:background="@drawable/rounded_button">
+                <ImageButton
+                    android:id="@+id/img_button_start"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+
+                    android:background="@drawable/icon_restart"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_button">
+                <ImageButton
+                    android:id="@+id/img_button_home"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/icon_home"/>
+            </LinearLayout>
 
 
         </LinearLayout>
